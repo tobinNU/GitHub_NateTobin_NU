@@ -6,5 +6,16 @@ def check_fermat(a, b, c, n):
     else:
         print("No, that doesn’t work.")
 
+
+
+def check_number():
+    a = int(input("Enter value for a: "))
+    b = int(input("Enter value for b: "))
+    c = int(input("Enter value for c: "))
+    n = int(input("Enter value for n: "))
+    return check_fermat(a, b, c, n)
+
+check_number()
+
         
 
