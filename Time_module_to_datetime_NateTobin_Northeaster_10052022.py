@@ -5,3 +5,7 @@ timestamp = time.time()
 dt_datetime = time.ctime(timestamp)
 print(dt_datetime)
 
+date = int(timestamp)
+
+number_of_days = date // 3600 // 24
+print(number_of_days, "days since epoch")
